@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void btEnviar(View view)
     {
         EditText txtNombre = (EditText)findViewById(R.id.txtNombre1);
-        Toast.makeText(this.getApplicationContext(), "Hello"+txtNombre.getText().toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.getApplicationContext(), "Hello "+txtNombre.getText().toString(), Toast.LENGTH_SHORT).show();
 
 
     }
